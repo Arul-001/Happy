@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Cinematic Surprise | Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&family=Outfit:wght@300;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Three.js Canvas Container -->
+    <div id="canvas-container"></div>
+
+    <!-- UI Overlays -->
+    <div class="cinematic-container">
+        <!-- Scene 1: Entry -->
+        <section class="scene" id="scene-entry">
+            <div class="center-content">
+                <h1 class="reveal-text">Hey Teju...</h1>
+            </div>
+        </section>
+
+        <!-- Scene 2: Reveal -->
+        <section class="scene" id="scene-reveal">
+            <div class="center-content">
+                <h2 class="glow-text">Happiest Birthday kutty pisasu</h2>
+                <p class="sub-reveal">Today is all about you, and the magic you bring to our lives.</p>
+            </div>
+        </section>
+
+        <!-- Scene 3: Journey -->
+        <section class="scene" id="scene-journey">
+            <div class="slideshow-container">
+                <div class="slideshow-wrapper" id="slideshow">
+                    <!-- 20 Images generated in JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Scene 4: Story -->
+        <section class="scene" id="scene-story">
+            <div class="story-content">
+                <p class="story-line">We argue . . .</p>
+                <p class="story-line">We annoy each oth . . .</p>
+                <p class="story-line">But at the end of the day...</p>
+                <p class="story-line">I’d never trade you for anyone else.</p>
+            </div>
+        </section>
+
+        <!-- Scene 5: Finale -->
+        <section class="scene" id="scene-finale">
+            <div class="center-content">
+                <h1 class="grand-finale-text">Be a Bold and ❤️</h1>
+                <div class="finale-wishes">
+                    <p class="finale-line">Grow strong...</p>
+                    <p class="finale-line">Keep smiling...</p>
+                    <p class="finale-line">And never forget...</p>
+                </div>
+                <p class="footer-note">Your brother will always be there for you. <br><strong>Your Brother</strong></p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Music Control -->
+    <div class="music-trigger" id="music-trigger">
+        <button id="play-btn">Click to Start the Magic ✨</button>
+        <audio id="bg-music" loop>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- External Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
