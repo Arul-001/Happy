@@ -68,14 +68,11 @@ const imagePaths = [
     '10.jpeg',
     '11.jpeg',
     '12.jpeg',
-    '13.jpg',
     '14.jpeg',
     '15.jpg',
     '16.jpg',
     '17.jpg',
-    '18.jpg',
-    '1.jpeg', // Duplicate 1 to make 20
-    '2.jpeg'  // Duplicate 2 to make 20
+    '18.jpg', // Duplicate 2 to make 20
 ];
 
 // Slideshow Controller
